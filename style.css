@@ -1,0 +1,55 @@
+body {
+  background-color: #8FBC8F;
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.success, .error, .confirm {
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+  text-transform: uppercase;
+  border: 2px solid white;
+} 
+
+.success {
+  background-color: rgba(34, 139, 34, 0.5);
+}
+
+.error {
+  background-color: rgba(178, 34, 34, 0.7);
+  }
+
+.confirm {
+  background-color: rgba(255, 140, 0, 0.5);
+  }
+
+
+.btn {
+  color: #8FBC8F;
+  font-size: 1.1em;
+  background-color: white;
+  transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+  color: #8FBC8F;
+  background-color: white;
+  transform: scale(1.02);
+}
+
+a {
+  text-decoration: none;
+  color: #B22222;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  background-color: #F5FFFA;
+}
